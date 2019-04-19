@@ -4,7 +4,7 @@ class Amazonsearch(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(
-            executable_path="C:\Users\\Test\\Documents\\devtest1\\src\\chromedriver.exe")
+            executable_path="src\\chromedriver.exe")
         cls.driver.implicitly_wait(20)
         cls.driver.maximize_window()
 
